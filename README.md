@@ -1,2 +1,4 @@
-# binayaklohani.com.np
-Please visit this website for the real website.
+# Copyright By Gaurab Lohani
+
+[Click here to visit website ](https://binayaklohani.com.np/)
+
