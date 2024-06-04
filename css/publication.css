@@ -1,0 +1,50 @@
+a{
+    color: #008080;
+}
+.publication-whole{
+    background-color: hsla(0, 0%, 0%, 0.1) !important;
+    background-image: url('/img/magazine.webp') !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 10px;
+}
+.main-publication {
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.main-publication .publication-name h2 {
+    font-size: 2.8rem !important;
+    color: #008080 !important;
+}
+
+.author {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.author-name {
+    font-weight: bold;
+}
+
+.publication {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    .main-publication {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .main-publication .publication-name h2 {
+        font-size: 2rem !important;
+      }
+}

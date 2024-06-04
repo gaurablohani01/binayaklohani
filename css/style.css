@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Update Navbar */
+.navbar-expand-lg {
+    border-bottom: 2px solid #b2b2b2 !important; /* Adjusting the border color */
+}
+
+.navbar-brand {
+    font-size: 1.6rem !important;
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #008080 !important; /* Accent color for active/hovered links */
+}
+
+/* Update Body and Footer */
+.whole-research {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    background-image: url('/img/magazine.webp') !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 10px;
+}
+
+.footer-section {
+    background-color: #b2b2b2; /* Background color for the footer */
+    color: #fff; /* Font color for the footer */
+}
+
+.footer-section a {
+    color: #fff; /* Font color for footer links */
+}
+
+.footer-section a:hover {
+    color: #008080; /* Accent color for hovered links */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-expand-lg {
+    border-bottom: 2px solid #008080 !important;
+}
+
+.whole {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    background-image: url('/img/magazine.webp') !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    padding-bottom: 10px;
+    background-position: center center;
+}
+.navbar-brand{
+    font-size: 1.6rem !important;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.body-main {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: justify;
+}
+
+.body-main .intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.body-main .intro .image img {
+    height: 350px !important;
+    border-radius: 100% !important;
+}
+
+.body-main .name h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+    margin: 0 0 10px;
+}
+
+.body-main .intro .name h3 a {
+    color: black;
+}
+
+.body-main .intro .network {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.body-main .intro .network a i{
+  color: #fff;
+}
+
+
+.body-main .intro-p .intro-p-me p {
+    font-size: 1.1rem;
+}
+
+.body-main .intro-p .card-group {
+    gap: 20px !important;
+    padding: 20px !important;
+}
+
+.body-main .intro-p .card-group .card {
+    border-radius: 10px !important;
+    background-color: #008080;
+}
+
+.body-main .intro-p .card-group .card .card-body h5 {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.body-main .intro-p .card-group .card .card-body li {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.body-main .intro-p .card-group .card .card-body span {
+    font-size: .89rem;
+    color: #202020;
+}
+
+@media screen and (max-width:1200px) {
+    .body-main{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,126 @@
+.whole-research {
+    background-color: hsla(0, 0%, 0%, 0.1) !important;
+    background-image: url('/img/magazine.webp') !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 10px;
+}
+
+.main-research {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.main-research .image img {
+    height: 150px;
+    border-radius: 20px;
+}
+
+.main-research .part-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: justify;
+    /* border-bottom: 3px solid #008080; */
+    padding: 20px;
+}
+
+.main-research .part-two {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: justify;
+    /* border-bottom: 3px solid #008080; */
+    padding: 20px;
+}
+
+.main-research .part-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: justify;
+    /* border-bottom: 3px solid #008080; */
+    padding: 20px;
+}
+
+.main-research .part-four {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: justify;
+    /* border-bottom: 3px solid #008080; */
+    padding: 20px;
+}
+
+.main-research .part-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: justify;
+    /* border-bottom: 3px solid #008080; */
+    padding: 20px;
+}
+
+.main-research .part-six {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: justify;
+    padding: 20px;
+    /* border-bottom: 3px solid #008080; */
+}
+
+@media screen and (max-width:1200px) {
+
+    .main-research .part-one {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-research .part-two {
+        flex-wrap: wrap;
+    }
+
+    .main-research .part-three {
+        flex-wrap: wrap;
+    }
+
+    .main-research .part-four {
+        flex-wrap: wrap;
+    }
+
+    .main-research .part-five {
+        flex-wrap: wrap;
+    }
+
+    .main-research .part-six {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .main-research .image img {
+        max-height: 160px;
+    }
+
+}
