@@ -46,19 +46,6 @@
     color: #008080; /* Accent color for hovered links */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .navbar-expand-lg {
     border-bottom: 2px solid #008080 !important;
 }
@@ -71,7 +58,6 @@
     background-blend-mode: darken;
     background-size: cover;
     padding-bottom: 10px;
-    background-position: center center;
 }
 .navbar-brand{
     font-size: 1.6rem !important;
