@@ -67,7 +67,8 @@
     align-items: center;
 }
 .navbar-brand:hover{
-    color: #008080;}
+    color: #008080 !important;
+}
 
 .name{
     display: flex;
