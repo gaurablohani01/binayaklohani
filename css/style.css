@@ -62,6 +62,10 @@
 .navbar-brand{
     font-size: 1.6rem !important;
     color: #008080;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
 }
 
 .name{
